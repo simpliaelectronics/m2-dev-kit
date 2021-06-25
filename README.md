@@ -11,7 +11,7 @@ Table of Contents
 # M.2 Dev Kits info
 Information regarding different Carrier boards and kits available from SIMPLIA.
 
-![SIMPLIA Platform](images/logo_platform.png)
+![SIMPLIA Platform](images/logo_platform.png?)
 
 # Carriers
 
