@@ -64,23 +64,23 @@ When present, the 5V VBUS power comming from the cable can be used to power the 
 
 USB devices can be implemented using this interface. For USB host functionality refer to [X2 USB A](#x2-usb-a) connector.
 
-![X1 USB-C](images/x1.jpg)
+![X1 USB-C](images/X1.jpg)
 
 ### X2 USB A
 
 This connector implements a USB 2.0 A Host including delivering 5V to the device. Refer to [Electrical Specifications](#electrical-specifications) for more information regarding power.
 
-![X2 USB A](images/x2.jpg)
+![X2 USB A](images/X2.jpg)
 
 ### X3 JTAG
 
 This connector has the footprint to use [Segger 10-Pin Needle Adapter](https://www.segger.com/products/debug-probes/j-link/accessories/adapters/10-pin-needle-adapter/)
 
-![X3 JTAG PCB](images/x3_PCB.jpg)
+![X3 JTAG PCB](images/X3_PCB.jpg)
 
 This cable can be connected to any 10 pin JTAG probe with SWD interface. Ony SWD and nRST signals are implemented. This interface shares debug signals with the on board Open SDA interface.
 
-![X3 JTAG](images/x3.jpg)
+![X3 JTAG](images/X3.jpg)
 
 ### X4 Camera
 
@@ -90,25 +90,25 @@ This cable can be connected to any 10 pin JTAG probe with SWD interface. Ony SWD
 
 When checking the schematics take into account that the pinout is reversed because the connector has bottom connection.
 
-![X4 Camera](images/x4.jpg)
+![X4 Camera](images/X4.jpg)
 
 ### X5 Micro USB Open SDA debug
 
 This micro USB connector is used to provide debug functionality for the inserted modules. The protocol used is Open SDA using a MK20 microcontroller from NXP.
 
-![X5 Micro USB Open SDA debug](images/x5.jpg)
+![X5 Micro USB Open SDA debug](images/X5.jpg)
 
 ### X6 Ethernet
 
 Sandard Ethernet connector with integrated magnetics and LEDs. Only 10/100 pairs are connected.
 
-![X6 Ethernet](images/x6.jpg)
+![X6 Ethernet](images/X6.jpg)
 
 ### X7 CAN
 
 Terminal block with CAN H/L signals, GND and 5V. CAN bus is not isolated.
 
-![X7 CAN](images/x7.jpg)
+![X7 CAN](images/X7.jpg)
 
 THe board has a 120ohm termination resistor that can be enabled using [JP3](#jp3).
 
@@ -116,13 +116,13 @@ THe board has a 120ohm termination resistor that can be enabled using [JP3](#jp3
 
 Standard Micro SIM socket with push pull insertion. Includes ESD protection. Only [CONNECT IMXRT 1052 LTE-M/Nb-IoT/GNSS](https://github.com/simpliaelectronics/connect-hw/tree/main/M.2/imxrt1052_modem_gnss) makes use of this interface.
 
-![X8 Micro SIM socket](images/x8.jpg)
+![X8 Micro SIM socket](images/X8.jpg)
 
 ### X9 Micro SD
 
 Standard Micro SD connector with push pull insertion. Includes ESD protection. Only [M.2 COMPACT 1052](https://github.com/simpliaelectronics/compact-hw/tree/main/M.2/imxrt1052) and [CONNECT IMXRT 1052 LTE-M/Nb-IoT/GNSS](https://github.com/simpliaelectronics/connect-hw/tree/main/M.2/imxrt1052_modem_gnss).
 
-![X9 Micro SD](images/x9.jpg)
+![X9 Micro SD](images/X9.jpg)
 
 [M.2 CONNECT IMXRT 1052 Wifi/BT](https://github.com/simpliaelectronics/connect-hw/tree/main/M.2/imxrt1052_Wifi_BT) uses SDIO interface internally to connect to WIFI module.
 
@@ -130,7 +130,7 @@ Standard Micro SD connector with push pull insertion. Includes ESD protection. O
 
 Connector header that exposes the SDIO signals, GND, 3V3 and 5V. This way this interface can be used to connect external boards over SIO/SPI or nay other interface that can be muxed into those pins.
 
-![X10 Connector header 2x5](images/x10.jpg)
+![X10 Connector header 2x5](images/X10.jpg)
 
 VCC_SDIO power supply is not present in this connector.
 
@@ -150,14 +150,14 @@ Expansion connector for SIMPLIA module.
 
 Battery holder for 3V 10mm coin cells (CR1025).
 
-![X13 Battery holder](images/x13.jpg)
+![X13 Battery holder](images/X13.jpg)
 
 ### X16 X17 Click interface 1
 
 Click connector as described in the [Mikroe specification](https://www.mikroe.com/click/interface). Signals connected here can be multiplexed in the procesor to be able to drive the boards.
 
-![X16 Click connector 1](images/x16.jpg)
-![X17 Click connector 1](images/x17.jpg)
+![X16 Click connector 1](images/X16.jpg)
+![X17 Click connector 1](images/X17.jpg)
 
 The serial port present in X17 can be routed to the debug interface instead of the click connector using [JP6](#JP6) and [JP7](#JP7).
 
@@ -165,14 +165,14 @@ The serial port present in X17 can be routed to the debug interface instead of t
 
 Click connector as described in the [Mikroe specification](https://www.mikroe.com/click/interface). Signals connected here can be multiplexed in the procesor to be able to drive the boards.
 
-![X18 Click connector 1](images/x18.jpg)
-![X19 Click connector 1](images/x19.jpg)
+![X18 Click connector 1](images/X18.jpg)
+![X19 Click connector 1](images/X19.jpg)
 
 ### X20 Connector header 1x5
 
 Connector header that exposes CAN2 TX/RX signals, GND, 3V3 and 5V. These signals are also present in the click boards (PWM in X17 and INT in X19).
 
-![X20 Connector header 1x5](images/x20.jpg)
+![X20 Connector header 1x5](images/X20.jpg)
 
 ## Bottom Connectors
 
@@ -185,14 +185,14 @@ Connector compatible with displays:
 
 The backlight current can be controlled using a PWD from the module.
 
-![X14 FPC/FFC Display](images/x14.jpg)
+![X14 FPC/FFC Display](images/X14.jpg)
 
 ### X15 FPC/FFC Touch
 
 Connector compatible with touch from displays:
 - POWERTIPSPF_PH800480T033_ICC01
 
-![X15 FPC/FFC Touch](images/x15.jpg)
+![X15 FPC/FFC Touch](images/X15.jpg)
 
 ## Configurable Connectors
 
